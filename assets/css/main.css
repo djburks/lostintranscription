@@ -1810,7 +1810,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #543A2D;
+		color: #242222;
 		text-decoration: none;
 	}
 
@@ -2035,8 +2035,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #543A2D;
-			box-shadow: 0 0 0 2px #543A2D;
+			border-color: #242222;
+			box-shadow: 0 0 0 2px #242222;
 		}
 
 	.select-wrapper {
@@ -2146,8 +2146,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #543A2D;
-			box-shadow: 0 0 0 1px #543A2D;
+			border-color: #242222;
+			box-shadow: 0 0 0 1px #242222;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2342,7 +2342,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #543A2D;
+				background: #242222;
 				color: #ffffff;
 			}
 
@@ -2715,7 +2715,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #543A2D;
+			background-color: #242222;
 			color: #ffffff !important;
 		}
 
@@ -2996,7 +2996,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #543A2D;
+				background: #242222;
 				color: #ffffff;
 			}
 
@@ -3170,7 +3170,7 @@
 /* CTA */
 
 	#cta {
-		background: #543A2D;
+		background: #242222;
 		color: #CBC3C0;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3192,7 +3192,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #543A2D;
+			color: #242222;
 		}
 
 		#cta input[type="text"],
