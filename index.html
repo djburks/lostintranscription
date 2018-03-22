@@ -1,178 +1,95 @@
 <!DOCTYPE HTML>
 <!--
-	Alpha by HTML5 UP
-	html5up.net | @n33co
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Lost in Transcription</title>
+		<title>Lost in Transcription - David Burks</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="landing">
-		<div id="page-wrapper">
+	<body class="is-loading">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">Lost in Transcription</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon fa-angle-down">More</a>
-								<ul>
-									<!--<li><a href="life2_00.html">Blog</a></li>-->
-									<li><a href="publications.html">Publications</a></li>
-									<li><a href="#">Curriculum Vitae</a></li>
-									<li><a href="about_me.html">About Me</a></li>
-									<li>
-										<a href="#">Projects</a>
-										<ul>
-											<li><a href="https://github.com/djburks/WPCC">WPCC</a></li>
-										</ul>
-									</li>
-									<li>
-										<a href="#">Tutorials</a>
-										<ul>
-											<li><a href="tut_disc_axis.html">Discontinuous Axis in R</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<!--<li><a href="#" class="button">Sign Up</a></li>-->
-						</ul>
-					</nav>
-				</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-			<!-- Banner -->
-				<section id="banner">
-					<h2>Lost in Transcription</h2>
-					<p>Everybase wants to be sequenced.</p>
-					<ul class="actions">
-						<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/28018393" class="button special">Latest Project</a></li>
-						<li><a href="about_me.html" class="button">About Me</a></li>
-					</ul>
-				</section>
-
-			<!-- Main -->
-				<section id="main" class="container">
-
-					<section class="box special">
-						<header class="major">
-							<h2>Welcome to the Personal Website of David J Burks</h2>
-							<p>Much like my life, this page is a neverending work in progress.  Unlike my life, this page isn't a complete wreck haphazardly held together by hastily written Python scripts and stale coffee.</p>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>David Burks</h1>
+							<p>Bioinformatician</p>
 						</header>
-						<!--<span class="image featured"><img src="images/desk.jpg" alt="" /></span>
-						<header class="major">
-							<h2>Still Here?</h2>
-							<p>I guess you could look through my blog posts, or peruse my handy tutorials section.<br>
-							I am not responsible if your data spontaneously explodes after taking any of my advice.</p>
-						</header>
-					</section>-->
-
-					<!--<section class="box special features">
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-bolt accent2"></span>
-								<h3>Magna etiam</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-							<section>
-								<span class="icon major fa-area-chart accent3"></span>
-								<h3>Ipsum dolor</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-cloud accent4"></span>
-								<h3>Sed feugiat</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-							<section>
-								<span class="icon major fa-lock accent5"></span>
-								<h3>Enim phasellus</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-						</div>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/djburks" class="fa-github">Twitter</a></li>
+								<li><a href="https://www.linkedin.com/in/djburks/" class="fa-linkedin">Instagram</a></li>
+								<li><a href="https://loop.frontiersin.org/people/383700/overview" class="fa-flask">Facebook</a></li>
+							</ul>
+						</footer>
 					</section>
 
-					<!--<div class="row">
-						<div class="6u 12u(narrower)">
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; David Burks</li><li><a href="davidburks@my.unt.edu">Email</a></li>
+						</ul>
+					</footer>
 
-							<section class="box special">
-								<span class="image featured"><img src="images/plerd.jpg" alt="" /></span>
-								<h3>Life<sup>2</sup></h3>
-								<p>Any and everything, taken straight from my life as a researcher, laboratory instructor, cat/rabbit parent, and sleep aficionado.</p>
-								<ul class="actions">
-									<li><a href="life2_00.html" class="button alt">Blog</a></li>
-								</ul>
-							</section>
-
-						</div>
-						<div class="6u 12u(narrower)">
-
-							<section class="box special">
-								<span class="image featured"><img src="images/junkcode.jpg" alt="" /></span>
-								<h3>How-To</h3>
-								<p>Because sometimes the internet contains valuable information, and sometimes it contains articles posing as valuable information.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Tutorials</a></li>
-								</ul>
-							</section>
-
-						</div>
-					</div>
-
-				</section>-->
-
-			<!-- CTA -->
-				<section id="cta">
-
-					<h2>Want to hire me?</h2>
-					<p>Or talk about how sexy and underappreciated a nice tab-delimited text file is in the world of biology?</p>
-
-					<!--<form>
-						<div class="row uniform 50%">
-							<div class="8u 12u(mobilep)">
-								<input type="email" name="email" id="email" placeholder="Email Address" />
-							</div>-->
-							<ul class="actions">
-								<li><a href="mailto:david.j.burks@gmail.com" class="button">Go For It</a></li>
-							</ul>
-						</div>
-					</form>
-
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://twitter.com/djburks87" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/david.burks.5680" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://github.com/djburks" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/djburks" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://plus.google.com/u/0/116035124233841597016/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; David Burks. All rights reserved.</li><li>Design: <a href="http://html5up.net">Inspired by HTML5 UP</a></li>
-					</ul>
-				</footer>
-
-		</div>
+			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
 	</body>
 </html>
